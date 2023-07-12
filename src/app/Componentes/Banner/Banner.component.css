@@ -1,0 +1,45 @@
+.banner{
+    background-color: #CC1D1D;
+    height: 5.5rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.logotipo{
+    margin: 1rem;
+    background-color: #ffffff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.usuario{
+    margin: 1rem;
+    background-color: #ffffff;
+    height: 3.4rem;
+    width: 3.4rem;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    border-radius: 50%;
+}
+.opciones{
+    display: flex;
+}
+.Op1{
+    margin-right: 2rem;
+    display: flex;
+}
+.figura{
+    display: flex;
+}
+h2{
+    color: #ffffff;
+}
