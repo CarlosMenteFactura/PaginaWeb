@@ -1,24 +1,24 @@
 .banner{
     background-color: #CC1D1D;
     height: 5.5rem;
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     margin: auto;
 }
 .logotipo{
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: #ffffff;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center;
 }
 .logo{
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .usuario{
     margin: 1rem;
@@ -34,12 +34,34 @@
     display: flex;
 }
 .Op1{
-    margin-right: 2rem;
+    margin-right: 1rem;
     display: flex;
 }
 .figura{
     display: flex;
 }
-h2{
+.texto{
+   
+    font-size: 30px;
     color: #ffffff;
+    display: flex;
+    margin-right: 0.5rem;
+   
 }
+.icono{
+    margin-right: 0.3rem;
+}
+.custom{
+    background-color: #CC1D1D;
+}
+@media(max-width:1270px) {
+    .texto{
+        font-size: 25px;
+    }
+}
+@media(max-width:1100px) {
+    .texto{
+        font-size: 20px;
+    }
+}
+

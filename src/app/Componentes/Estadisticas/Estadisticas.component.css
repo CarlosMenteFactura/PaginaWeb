@@ -1,0 +1,37 @@
+.div{
+    border: 1px solid #ccc;
+    outline: 1px solid rgb(2, 2, 2);
+}
+.seeker{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 3rem;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    outline: 1px solid #820808;
+}
+.but{
+    display: flex;
+    width: 60%;
+}
+.b1{
+    margin: 0.5rem;
+}
+.barraBusqueda{
+    margin-left: 0.5rem;
+    width: 45%;
+}
+.Busqueda{
+    width: auto;
+    border-radius: 10%;
+}
+.bus{
+    display: flex;
+}
+
+
+
+
