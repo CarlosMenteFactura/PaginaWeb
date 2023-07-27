@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 import { EstadisticasComponent } from './Componentes/Estadisticas/Estadisticas.component';
 import { BannerComponent } from './Componentes/Banner/Banner.component';
 import { PiePaginaComponent } from './Componentes/piePagina/piePagina.component';
+import { FormsModule } from '@angular/forms';
+import { GraficaComponent } from './Componentes/Grafica/Grafica.component';
+import { ListaComponent } from './Componentes/Lista/Lista.component';
+
+
 
 @NgModule({
   declarations: [		
     AppComponent,
       EstadisticasComponent,
       BannerComponent,
-      PiePaginaComponent
+      PiePaginaComponent,
+      GraficaComponent,
+      ListaComponent
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

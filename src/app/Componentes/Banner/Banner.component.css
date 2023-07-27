@@ -1,5 +1,5 @@
 .banner{
-    background-color: #CC1D1D;
+    background-color: #000000;
     height: 5.5rem;
     width: 100%;
     display: flex;
@@ -45,14 +45,14 @@
     font-size: 30px;
     color: #ffffff;
     display: flex;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
    
 }
 .icono{
     margin-right: 0.3rem;
 }
 .custom{
-    background-color: #CC1D1D;
+    background-color: #525151;
 }
 @media(max-width:1270px) {
     .texto{
