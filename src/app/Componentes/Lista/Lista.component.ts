@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Lista } from 'src/app/Datos';
 
 @Component({
   selector: 'app-Lista',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./Lista.component.css']
 })
 export class ListaComponent implements OnInit {
-
+  @Input() Lista:Lista;
+  @Output() ElementoSeleccionado=new EventEmitter<number>();
   constructor() { }
 
   ngOnInit() {
   }
-
+  SeleccionarDato(id:number){
+    this.ElementoSeleccionado.emit(id);
+  }
 }

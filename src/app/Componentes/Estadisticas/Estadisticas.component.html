@@ -1,5 +1,5 @@
 
-<app-Grafica></app-Grafica>
+<app-Grafica [Datos]="datosGrafic[id]" *ngIf="id!=0"></app-Grafica>
    <div class="elementos">
     <!-- Buscador
         <div class="seeker">
@@ -50,7 +50,8 @@
                     <h4>ESTATUS</h4>
                 </div>
             </div>
-           <app-Lista></app-Lista>
+           <app-Lista *ngFor="let elemento of Lista;" [Lista]="elemento" (ElementoSeleccionado)="IdDatos($event)">
+           </app-Lista>
          </div>
         
  

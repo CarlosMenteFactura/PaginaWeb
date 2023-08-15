@@ -1,10 +1,10 @@
-div{
+.div{
     outline: 1px solid black;
 }
 .barras{
     align-items: center;
-    margin: 0.5rem;
-    width: 80%;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 70%;
     height: auto;
     outline: 1px solid rgb(192, 192, 192);
     background-color: #f3f3f3a2; 
@@ -12,7 +12,7 @@ div{
     border-radius: 2px; 
 }
 .circulo{
-    width: 40%;
+    width: 35%;
     margin: 0.5rem;
     height: auto;
     outline: 1px solid rgb(192, 192, 192);
